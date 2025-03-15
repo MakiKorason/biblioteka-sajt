@@ -52,19 +52,19 @@ const Home =()=> {
   const onChange= date =>{
     setDate(date);
   }
-  const books = [
-    { id: 1, title: 'Писма брату', genre: 'Епистоларни жанр' },
-    { id: 2, title: 'Живот у боји: Ван Гог', genre: 'Артистички анализе' },
-    { id: 3, title: 'Ван Гог: Писма', genre: 'Писма' }
-  ];
+  // const books = [
+  //   { id: 1, title: 'Писма брату', genre: 'Епистоларни жанр' },
+  //   { id: 2, title: 'Живот у боји: Ван Гог', genre: 'Артистички анализе' },
+  //   { id: 3, title: 'Ван Гог: Писма', genre: 'Писма' }
+  // ];
 
 
-  const [showBooks, setShowBooks] = useState(false);
+  // const [showBooks, setShowBooks] = useState(false);
 
 
-  const handleClick = () => {
-    setShowBooks(!showBooks); 
-  };
+  // const handleClick = () => {
+  //   setShowBooks(!showBooks); 
+  // };
 
   return (
 
