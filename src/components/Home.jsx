@@ -105,7 +105,7 @@ const Home =()=> {
 />
       <div  className="carousel-caption ">
     
-        <p >Румљанин Атанасије Стојковић је међу првим српским научницима<br/> чији је рад признат на Западу.  
+        <p >Румљанин Атанасије Стојковић! је међу првим српским научницима<br/> чији је рад признат на Западу.  
          <Button
     href="https://www.virtualna-ruma.rs/page.php?pro_id=59" 
       target="_blank"
