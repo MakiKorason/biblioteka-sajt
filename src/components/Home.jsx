@@ -28,7 +28,6 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import AnimatedImage from "./Department/AnimatedImage";
 import AnimatedCard from './Department/AnimatedCard'; 
-import pokrajina from '../images/pokrajina.jpg'
 import vanGog from '../images/vanGog.jpg'
 
 const Home =()=> { 
@@ -303,15 +302,14 @@ className='btn btn-secondary'
     <div className="carousel-item active">
       <div  style={{backgroundColor:'rgba(0, 0, 0, 0.1)'}} >
      < Row>
-          <Col md={4} className='text-center' > 
-        <img style={{width:'32%' }} src={ministarstvo} alt='Министарство културе'/> </Col> 
-          <Col md={4} className='text-center'> <img style={{width:'30%'}}  src={pokrajina} alt='Покрајински секретаријат за културу, јавно информисање и односе с верским заједницама'/> 
-        </Col> <Col md={4} className='text-center'><img style={{width:'60%'}}  src={opstina} alt='Општина Рума'/> </Col></Row>
+          <Col md={12} className='text-center' > 
+        <img style={{width:'13%' }} src={ministarstvo} alt='Министарство културе'/>
+<img style={{width:'18%'}}  src={opstina} alt='Општина Рума'/>  <img style={{width:'10%'}}  alt='Народна библиотека Србије' src={narodna}/>        <img style={{width:'15%'}}  src={matica} alt='Матица српска' />   </Col></Row>
       
           <hr/> 
           <Col md={12} className='text-center'>
-           <img style={{width:'10%'}}  alt='Народна библиотека Србије' src={narodna}/> 
-       <img style={{width:'15%'}}  src={matica} alt='Матица српска' />  
+         
+
        <img style={{width:'25%', marginTop:'1em', marginLeft:'1rem'}} src={muzej} alt='Музеј'/>
           <img style={{width:'15%',marginLeft:'1rem' }} src={turisticka} alt='Туристичка'/>
           <img  style={{width:'10%', marginLeft:'1rem'}}  src={kc} alt="Културни центар"  />

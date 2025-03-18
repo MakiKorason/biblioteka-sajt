@@ -161,7 +161,7 @@ const Recommendations =()=>{
             <Row className="mb-4">
                    
                  <Col xs={12} md={12} >
-                    <h3 className='container-title' style={{marginLeft:'28rem'}}>Књиге за одрасле</h3><br/> <a className='container-text' href='https://www.instagram.com/reel/C6Vmssjsa3s/' target='_blank' rel="noreferrer">Препоручујемо вам! 📚</a> 
+                    <h3 className='container-title' >Књиге за одрасле</h3><br/> <a className='container-text' href='https://www.instagram.com/reel/C6Vmssjsa3s/' target='_blank' rel="noreferrer">Препоручујемо вам! 📚</a> 
                     {knjigeZaOdrasle.map((knjiga, index) => (
                         <Row key={index} className="mb-4 align-items-center">
                             <Col xs={12} md={4}>
@@ -186,7 +186,7 @@ const Recommendations =()=>{
                
                 <Col xs={12} md={12}>
                    
-                    <br/><h3 className='container-title' style={{marginLeft:'28rem'}}>Научне књиге</h3><br/><a className='container-text' href='https://www.instagram.com/reel/C33Aqkysm9H/' target='_blank'  rel="noreferrer">Препоручујемо вам! 📚</a>
+                    <br/><h3 className='container-title' >Научне књиге</h3><br/><a className='container-text' href='https://www.instagram.com/reel/C33Aqkysm9H/' target='_blank'  rel="noreferrer">Препоручујемо вам! 📚</a>
                     {naucneKnjige.map((knjiga, index) => ( 
                         <Row key={index} className="mb-4 align-items-center">
                             <Col xs={12} md={4} >
@@ -209,7 +209,7 @@ const Recommendations =()=>{
                 </Col>
                
                 <Col xs={12} md={12}>
-                    <br/><h3 className='container-title' style={{marginLeft:'28rem'}}>Књиге за децу</h3><br/>
+                    <br/><h3 className='container-title'>Књиге за децу</h3><br/>
                     {knjigeZaDecu.map((knjiga, index) => (
                         <Row key={index} className="mb-4 align-items-center">
                             <Col xs={12} md={4} >
