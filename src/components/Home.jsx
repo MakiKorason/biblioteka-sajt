@@ -29,6 +29,7 @@ import 'react-calendar/dist/Calendar.css';
 import AnimatedImage from "./Department/AnimatedImage";
 import AnimatedCard from './Department/AnimatedCard'; 
 import vanGog from '../images/vanGog.jpg'
+import pokrajina from '../images/pokrajina.jpg'
 
 const Home =()=> { 
   const [date, setDate] = useState(new Date());
@@ -304,12 +305,14 @@ className='btn btn-secondary'
      < Row>
           <Col md={12} className='text-center' > 
         <img style={{width:'13%' }} src={ministarstvo} alt='Министарство културе'/>
-<img style={{width:'18%'}}  src={opstina} alt='Општина Рума'/>  <img style={{width:'10%'}}  alt='Народна библиотека Србије' src={narodna}/>        <img style={{width:'15%'}}  src={matica} alt='Матица српска' />   </Col></Row>
+<img style={{width:'18%'}}  src={opstina} alt='Општина Рума'/>     
+<img src={pokrajina} style={{width:'10%'}} alt='Покрајина' />
+    </Col></Row>
       
           <hr/> 
           <Col md={12} className='text-center'>
-         
-
+          <img style={{width:'15%'}}  src={matica} alt='Матица српска' />  
+<img style={{width:'10%'}}  alt='Народна библиотека Србије' src={narodna}/> 
        <img style={{width:'25%', marginTop:'1em', marginLeft:'1rem'}} src={muzej} alt='Музеј'/>
           <img style={{width:'15%',marginLeft:'1rem' }} src={turisticka} alt='Туристичка'/>
           <img  style={{width:'10%', marginLeft:'1rem'}}  src={kc} alt="Културни центар"  />

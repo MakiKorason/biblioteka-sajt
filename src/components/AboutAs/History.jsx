@@ -1,9 +1,10 @@
 
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
 import DJNA from '../../images/DJNA.jpg'
 import DJNA1 from '../../images/DJNA1.webp'
-
+import AnimatedImage from '../Department/AnimatedImage';
+import AnimatedCard from '../Department/AnimatedCard'; 
 const History = () => {
 
   return (
@@ -56,11 +57,11 @@ COBISS/OPAC окружење и све услуге корисницима
 корисника, уз подршку локалне самоуправе
 пронашло се решење у виду адаптације зграде
 Дома војске.</p></Col>  <hr/>
-<div className='container-iframe'>
+<AnimatedCard className='container-iframe'>
 <iframe
      src="https://www.youtube.com/embed/ec6NLWV8qaM"
         title="Example Website"
-      ></iframe> </div>
+      ></iframe> </AnimatedCard>
            
        </Row>
 
@@ -77,7 +78,7 @@ COBISS/OPAC окружење и све услуге корисницима
 Виктора Аксмана. </p><hr/>
          </Col>
            <Col xs={12} sm={12} md={6} lg={6} xl={6} className='mt-2'>
-          <Image 
+          <AnimatedImage 
             src={DJNA1}
             alt="Дом војске" 
             className='container-image'
@@ -92,7 +93,7 @@ COBISS/OPAC окружење и све услуге корисницима
 ослоњеним на два снажна вретенаста стуба. Изнад
 се налази велики двокрилни полукружни прозор.</p>
         
-           <Image 
+           <AnimatedImage
             src={DJNA}
             alt="Слика старе библиотеке" 
             className='container-image mt-1'
